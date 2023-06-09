@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DBP</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #d3f6bafe;
+                margin: 0;
+                padding: 0;
+            }
+    
+            h1 {
+                color: #333;
+                text-align: center;
+                padding: 20px;
+            }
+    
+            ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+                text-align: center;
+            }
+    
+            li {
+                margin-bottom: 10px;
+            }
+    
+            a {
+                display: block;
+                color: #333;
+                text-decoration: none;
+                font-weight: bold;
+                padding: 10px;
+                border-radius: 5px;
+                background-color: #fff;
+                transition: background-color 0.3s ease;
+            }
+    
+            a:hover {
+                background-color: #b7dcfe;
+            }
+        </style>
+    </head>
+<body>
+    <h1>CODIGOS</h1>
+    <ul>
+        
+        <li><a href="{{ url_for('new_year') }}"">New year</a></li>
+        <li><a href="{{ url_for('hello_world') }}">Hello, worlD</a></li>
+        <li><a href="{{ url_for('hello') }}">Hello</a></li>
+        <li><a href="{{ url_for('loops') }}">Loops</a></li>
+        <li><a href="{{ url_for('index_in') }}">First Page</a></li>
+        <li><a href="{{ url_for('more') }}">Second Page</a></li>
+ 
+        <li><a href="{{ url_for('david') }}">Routes 0</a></li>
+        <li><a href="{{ url_for('index_static1') }}">Static 1</a></li>
+        <li><a href="{{ url_for('more_static2') }}">Static 2</a></li>
+        <li><a href="{{ url_for('templatess') }}">Templates</a></li>
+        <li><a href="{{ url_for('index_urls') }}">Urls index</a></li>
+        <li><a href="{{ url_for('more_urls') }}">Urls more</a></li>
+        <li><a href="{{ url_for('index_variables0') }}">Variables 0</a></li>
+        <li><a href="{{ url_for('index_variables1') }}">Variables 1</a></li>
+        <li><a href="{{ url_for('TODO') }}">Todo List</a></li>
+    </ul>
+</body>
+</html>
